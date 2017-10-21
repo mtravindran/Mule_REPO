@@ -13,7 +13,7 @@ import org.mule.tck.junit4.FunctionalTestCase;
 public class Tester extends FunctionalTestCase {
 	@Override
 	protected String[] getConfigFiles() {
-		String[] configFile = new String[] { "salesforcetraining.xml" };
+		String[] configFile = new String[] { "deploymentnew.xml" };
 		return configFile;
 	}
 
