@@ -19,6 +19,6 @@ public class Tester extends FunctionalTestCase {
 
 	@Test
 	public void mavenFlowReturnsHelloMaven() throws Exception {
-		runFlowAndExpect("mavenFlow", "Hello Maven");
+		runFlowAndExpect("deploymentnewFlow", "Hello Maven");
 	}
 }
